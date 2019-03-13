@@ -18,7 +18,7 @@ from github import Github
 
 
 def print_repository(repo):
-    print('Repo description: {}'.format(repo.description))
+    print('Repo123 description: {}'.format(repo.description))
     print('Repo active branch is {}'.format(repo.active_branch))
     for remote in repo.remotes:
         print('Remote named "{}" with URL "{}"'.format(remote, remote.url))
